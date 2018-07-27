@@ -14,17 +14,17 @@ Thanks to @a1300 for the above
 
 Make sure that ASCH is running (`cd asch && node app.js`) now point your browser to http://localhost:4096/#/login and press the "New account" button.
 
-![Step 1/2 Create Master Secret](./blob/master/images/nextstep.png)
+![Step 1/2 Create Master Secret](./images/nextstep.png)
 
 In this example the secret will become `pair join budget leisure rough blouse task receive curve auction habit reform` (write it down somewhere). Now press the "Next Step" button and confirm the secret.
 
 You will find your new accout with an empty balance:
 
-![Empty balance](./blob/master/images/emptybalance.png)
+![Empty balance](./images/emptybalance.png)
 
 Find your address under the "My Account" tab on the left side of your screen:
 
-![Your address](./blob/master/images/address.png)
+![Your address](./images/address.png)
 
 As you see our new XAS address is `A7BAoWK4UA2KuQSugUCKyhFHiHzgXyYTD9`.
 
@@ -40,17 +40,25 @@ Use the genesis account to send the new user some XAS. The genesis account, see 
 
 Point your browser to http://localhost:4096/#/login again. Login with the genesis account now. Then Click the "Transfer" tab on the left side of your screen. Now send 1000 XAS to `A7BAoWK4UA2KuQSugUCKyhFHiHzgXyYTD9`.
 
-![Pay](./blob/master/images/pay.png)
+![Pay](./images/pay.png)
 
 ## Create a publisher
 Login with your new account now. You'll see that the balance contains 1000 XAS now. Chose the "Asset" tab from the left side of the screen now. Then navigate to "Registered Publisher" tab and fill in the form like that shown in the figure below:
 
-![new publisher](./blob/master/images/newpublisher.png)
+![new publisher](./images/newpublisher.png)
 
 Confirm the popup that: "This operation requires a fee of 100 XAS"
 
-Now wait a least 10 seconds for the next block.
+Now wait at least 10 seconds for the next block.
 
 ## Create an asset
+Now navigate to the "Registered Assets" tab an fill in the form like that shown in the figure below, ignore the field under "Accuracy":
+
+![new asset](./images/newasset.png)
+
+Now the screen fades out and nothing happens!
+
+![wrong](./images/wrong.png)
+
 
 
