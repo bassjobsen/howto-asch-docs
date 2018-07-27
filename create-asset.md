@@ -54,11 +54,27 @@ Now wait at least 10 seconds for the next block.
 ## Create an asset
 Now navigate to the "Registered Assets" tab an fill in the form like that shown in the figure below, ignore the field under "Accuracy":
 
-![new asset](./images/newasset.png)
+Confirm the popup that: "This operation requires a fee of 500 XAS". After 10 second you will find your asset under the "My Issued Assets":
 
-Now the screen fades out and nothing happens!
+![new asset](./images/issuedassets.png).
 
-![wrong](./images/wrong.png)
+Now you can cancel, change, release and transfer your new assets. Let's try to release some pub.New assets now.
+
+Enter the number of asset you're issuing in the popup and confirm your operation:
+
+![issuing](./images/issuing.png).
+
+After 10 seconds you'll find your 200000 new `pub.NEW` assets under the "Asset Profile". Now you're able to send (transfer) `pub.NEW` assets to other adresses too. 
+
+# Using asch-redeploy
+Notice that you can also use [asch-redeploy](https://github.com/AschPlatform/asch-redeploy) to create a new Asset:
+
+Change the directory to some random Dapp and execute:
+
+```
+> asch-redeploy --publisher pub --asset NEW
+```
+
 
 
 
