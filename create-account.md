@@ -33,6 +33,6 @@ Point your browser to http://localhost:4096/#/login again. Login with the genesi
 Login with your new account now. Notice that one account can only register as publisher once. You'll see that the balance contains 1000 XAS now. 
 
 # Create a new acount with asch-cli
-Alternatively you can also use [asch-cli]() to [create a new account](https://github.com/AschPlatform/asch-docs/blob/master/dapp/hello_world/en.md#6-prepare-account-for-dapp-registration).
+Alternatively you can also use [asch-cli](https://github.com/AschPlatform/asch-cli) to [create a new account](https://github.com/AschPlatform/asch-docs/blob/master/dapp/hello_world/en.md#6-prepare-account-for-dapp-registration).
 
 

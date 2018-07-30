@@ -9,7 +9,7 @@ The normal process would be:
 - Mint tokens (only available in Chinese language, you can see it on the screen, but not translated yet)
 
 ## Preparation
-Make sure that ASCH is running (`cd asch && node app.js`) and you've created a (new) account. See also [Create a new account by using the (default) front-end](./create-account). Notice that one account can only register as publisher once.
+Make sure that ASCH is running (`cd asch && node app.js`) and you've created a (new) account. See also [Create a new account by using the (default) front-end](../create-account/en.md). Notice that one account can only register as publisher once.
 
 ## Create a publisher
 Point yout browser to http://localhost:4096/#/login and login with your account. Make sure your account contains enough XAS. Registering a publisher requires 100 XAS and registering an asset requires 500 XAS again. Choose the "Asset" tab from the left side of the screen now. Then navigate to "Registered Publisher" tab and fill in the form like that shown in the frgure below:
