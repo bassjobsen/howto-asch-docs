@@ -88,9 +88,10 @@ As you can see the account has `"isDelegate": 1` and `"role": 1`. There are thre
 DELEGATE: 1,
 AGENT: 2,
 GATEWAY_VALIDATOR: 3,
-``
+```
 
 #### Voting with the delgate found above
+
 ```
 ./asch-cli upvoteproposal --secret "praise modify banner vacant steak forest gravity code scene ensure street note" --tid "aa8aa91588dc87b62d5d2cbdcc26e7c475fc6775cb7b80d3769dc9e5923029bf"
 ```
@@ -117,6 +118,7 @@ Our user with address `A8j4iHChYCPfNA6PDLsNAWvR1aGwwSnK1J` got already got some 
 ```
 ##### now start gaining votes
 But for the `localnet` it seems that i can already vote yet?!
+
 ```
 ./asch-cli upvoteproposal --secret "above eternal sugar kingdom arch soup forward pluck hope senior peace clarify" --tid "aa8aa91588dc87b62d5d2cbdcc26e7c475fc6775cb7b80d3769dc9e5923029bf"
 a09fc5a19008ce6c96df49c7d716ff154c96b768b2af69329f44f90fddd1e7be

@@ -1,4 +1,4 @@
-#setup a gateway
+# setup a gateway
 
 To set up a gateway you should preform the following steps:
 
